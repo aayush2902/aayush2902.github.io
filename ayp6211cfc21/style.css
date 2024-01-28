@@ -1,0 +1,287 @@
+.Content{
+    position: absolute;
+    height: 825px;
+    width: 675px;
+    left: 0px;
+    top: 0px;
+}
+
+.Menu{
+    display: flex;
+    height: 35px;
+    width: 675px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    position: fixed;
+    border-top: 10px solid white;
+    padding-bottom: 10px;
+}
+
+#MainEvents{
+    color: rgb(163, 139, 76);
+    padding-right: 200px;
+    font-family: 'Public Sans';
+    font-size: 10px;
+    font-weight: 600;
+}
+
+a{
+    font-family: 'Public Sans';
+    font-size: 9px;
+    font-weight: 600;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color: none;
+    color: black
+}
+
+a:hover{
+    color: rgb(163, 139, 76);
+}
+
+.Bg{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 675px;
+    background-attachment: fixed;
+}
+
+.Image1{
+    background-image: url("./image3.png");
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 195px;
+}
+
+.Image1 > div{
+    font-size: 35px;
+    font-family: 'EB Garamond';
+    color: white;
+    padding-bottom: 10px;
+}
+
+.Block1{
+    display: flex;
+    height: 387.5px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#A{
+    background-image: url(./flower.png);
+    background-position: center;
+    background-size: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    width: 26%;
+}
+
+#A > div{
+    color: white;
+}
+
+#A1{
+    font-family: 'Public Sans';
+    font-size: 18px;
+    padding-top: 65px;
+}
+
+#A2{
+    display: flex;
+    font-family: 'EB Garamond';
+    text-align: center;
+    font-size: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 50px;
+}
+
+#A3{
+    font-family: 'EB Garamond';
+    text-align: center;
+    font-size: 14px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6px;
+    padding-bottom: 32px;
+}
+
+#A4{
+    font-family: 'Public Sans';
+    font-size: 9.5px;
+    border: 0.5px solid white;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#B{
+    height: 300px;
+    width: 61.5%;
+    padding-left: 43px;
+}
+
+#B > img{
+    height: 100%;
+    width: 90%;    
+}
+
+.Block2{
+    height: 285px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#R{
+    font-size: x-large;
+    color: rgb(163, 139, 76);
+    padding-right: 47px;
+}
+
+#L{
+    font-size: x-large;
+    color: rgb(163, 139, 76);
+    padding-right: 120px;
+    padding-left: 42px;
+}
+
+.Mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 110px;
+}
+
+#M1{
+    font-size: 35px;
+    padding-bottom: 7.5px;
+}
+
+#M2{
+    font-family: 'EB Garamond';
+    font-size: 23.5px;
+    font-weight: 450;
+}
+
+#M3{
+    font-family: 'Public Sans';
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(163, 139, 76);
+    padding-top: 30px;
+}
+
+.Image2{
+    background-image: url("./image2.png");
+    height: 390px;
+    border: 45px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: end; 
+}
+
+#C{
+    background-image: url("flower.png");
+    background-position: center;
+    background-size: 170%;
+    height: 300px;
+    width: 26.5%;
+    margin-right: 47.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+#C1{
+    font-family: 'Public Sans';
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#C2{
+    font-family: 'EB Garamond';
+    font-size: 13px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#C2 div{
+    padding: 4px;
+}
+
+#C3{
+    font-family: 'Public Sans';
+    font-size: 9.5px;
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 0.5px solid;
+}
+
+.Block3{
+    display: flex;
+    height: 125px;
+    align-items: flex-start;
+    background-color: rgb(163, 139, 76);
+    border-left: 45px solid white;
+    border-right: 45px solid white;
+    border-top: 27px solid white;
+    border-bottom: 25px solid white;
+    font-family: 'Public Sans';
+    color: white;
+}
+
+#D1{
+    font-size: 9px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 15px;
+    border-right: 0.5px solid;
+}
+
+#D2{
+    font-size: 9px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 10px;
+    }
+
+#D2 .E{
+    padding-right: 10px;
+    border-right: 0.5px solid;
+}
+
+#D3{
+    font-size: 9px;
+    font-size: 9px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+#D4{
+    font-size: 10px;
+    margin-top: 47.5px;
+    margin-left: 45px;
+    padding: 8px;
+    border: 0.5px solid white;
+}
